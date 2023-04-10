@@ -22,7 +22,7 @@ declare const MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY: string;
 
 expressapp.use(cors());
 
-const EXPRESSPORT = 8889;
+const EXPRESSPORT = 8000;
 const isDev: boolean = app.isPackaged ? false : true;
 
 const homeDir = app.getPath("home");
